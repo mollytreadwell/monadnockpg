@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> My Favorite Summer Colors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aboreto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alumni+Sans+Pinstripe">
+</head>
+<style>
+    .border {
+        border-width: 3px;
+        border-color: wheat;
+        border-style: solid;
+        width: 300px;
+        height: 450px;
+        background-color: transparent;
+        text-align: center;
+        align-items: center;
+    }
+    .column {
+        float: left;
+        width: .25;
+        padding: 5px;
+        text-align: left;
+    }
+    .row {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .button {
+        align-items: center
+        text-align: center;
+    }
+    #a {
+    background-image: url(yuki.jpg);
+    background-position: center;
+    }
+</style>
+<body>
+    <h1>
+        Monadnock Perennial Gardens
+    </h1>
+    <h2>
+       <i><b>c r e a t e</b>   y o u r   <b>i d e a l</b>   o u t d o o r   <b>p r e s e n c e</b></i>
+    </h2>
+    <br>
+    <br>
+    <div class="row">
+        <div class="column">
+            <p class="border">
+                <img src="./peony2.jpg" width="300" height="450" alt="PNY"></p>
+        </div>
+        <div class="column">
+           <ul class="border"> 
+                <br><br>
+                <li> Established in 2020</li>
+                <li> Estate, vacation and commercial landscapes
+                <li> Yard and garden designs that mirror your lifestyle</li>
+                <li> Custom maintenance plans</li>
+            </ul>
+        </div>
+        <div class="column">
+           <p class="border">
+            <br><br>
+            Schedule a consultation today by calling <i>603-459-5055</i> or submit a message in the comment bar.</p>
+        </div>
+        <div class="column">
+                <form class="border" id="a" action="mailto:monadnockperennialgardens@gmail.com"
+                method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                Email:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="30"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+                </form>
+        </div>
+    </div>
+        <div class="row">
+            <div class="column">
+            <p class="button">
+                <button onclick=window.location.href="https://www.facebook.com/MonadnockPerennials">FACEBOOK</button>
+            </p>
+        </div>
+        <div class="column">
+            <p class="button">
+                <button onlick=window.location.href="https://www.instagram.com/molllyhoppy/">INSTAGRAM</button>
+            </p>
+        </div>
+    </div>
+       
+</body>
+</html>

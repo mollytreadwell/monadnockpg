@@ -1,0 +1,31 @@
+body{
+    background-color: olivedrab;
+}
+h1 {
+    color: bisque;
+    background-image: url(astilbe.jpg);
+    background-attachment: fixed;
+    background-position-y: 100px;
+    border: 3px solid wheat;
+    font-size: 8em;
+    font-family: "Aboreto";
+}
+
+h2 {
+    font-family: "Alumni Sans Pinstripe";
+    text-align: center;
+    font-stretch: ultra-expanded;
+}
+
+ul {
+    font-family: "Alumni Sans Pinstripe";
+    font-size: 2em;
+    text-align: right;
+}
+
+p {
+    font-family: "Alumni Sans Pinstripe";
+    font-size: 2em;
+    text-align: right;
+}
+
