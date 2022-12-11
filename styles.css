@@ -14,7 +14,6 @@ h1 {
 h2 {
     font-family: "Alumni Sans Pinstripe";
     text-align: center;
-    font-stretch: ultra-expanded;
 }
 
 ul {
@@ -27,5 +26,37 @@ p {
     font-family: "Alumni Sans Pinstripe";
     font-size: 2em;
     text-align: right;
+}
+
+.border {
+    border-width: 3px;
+    border-color: wheat;
+    border-style: solid;
+    width: 300px;
+    height: 450px;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+}
+.column {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: auto;
+}
+
+.button {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    align-items: center
+}
+
+#a {
+background-image: url(yuki.jpg);
+background-position: center;
+}
+#b {
+    text-align: left;
 }
 
